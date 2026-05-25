@@ -16,8 +16,16 @@ body {
   height: 100vh;
   text-transform: uppercase;
   font-family: Inter;
+  flex-direction: column;
+  position: relative;
 }
 h1 {
   font-size: 4rem;
   color: #333;
+}
+.copyright {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.8rem;
+  color: #666;
 }
