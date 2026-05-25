@@ -1,0 +1,23 @@
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-transform: uppercase;
+  font-family: Inter;
+}
+h1 {
+  font-size: 4rem;
+  color: #333;
+}
